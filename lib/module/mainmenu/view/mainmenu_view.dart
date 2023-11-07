@@ -65,12 +65,12 @@ class MainmenuView extends StatefulWidget {
                         padding: const EdgeInsets.all(10.0),
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20.0),
-                            color: Colors.black),
+                            color: const Color.fromARGB(255, 131, 123, 206)),
                         child: Image.network(
                           // alt+shift+l untuk blocklink
-                          "https://cdn-icons-png.flaticon.com/128/590/590836.png",
-                          width: 50.0,
-                          height: 50.0,
+                          "https://o.remove.bg/downloads/3af27c4a-6732-47df-b5d4-0b19775a288b/images-removebg-preview.png",
+                          width: 100.0,
+                          height: 100.0,
                           fit: BoxFit.cover,
                           color: Colors.white,
                         ),
@@ -88,7 +88,7 @@ class MainmenuView extends StatefulWidget {
                         height: 5.0,
                       ),
                       const Text(
-                        "Muhammad Yusuf",
+                        "Muhammad Rizal Arifin",
                         style: TextStyle(
                           fontSize: 16.0,
                           fontWeight: FontWeight.bold,
@@ -211,7 +211,7 @@ class MainmenuView extends StatefulWidget {
                         decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: NetworkImage(
-                              "https://shopee.co.id/inspirasi-shopee/wp-content/uploads/2022/02/cafe-di-bekasi-1280x720.webp",
+                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkIrIvSJ2J9R64i5-JutIwshc4mbkgGLFEg&usqp=CAU",
                             ),
                             fit: BoxFit.cover,
                           ),
